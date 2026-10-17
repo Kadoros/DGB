@@ -1,0 +1,13 @@
+# CPU wheels: pip install --index-url https://download.pytorch.org/whl/cpu torch torchvision
+torch>=2.4
+torchvision
+timm>=1.0
+huggingface_hub
+safetensors
+numpy
+pandas
+pyarrow
+scipy
+pillow
+tqdm
+gdown
