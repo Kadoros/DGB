@@ -20,7 +20,7 @@ EXT_CENTRES = ("C3", "C6")
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--seed", type=int, default=0)
-    ap.add_argument("--seq_test_frac", type=float, default=0.2)
+    ap.add_argument("--seq_test_frac", type=float, default=0.3)
     ap.add_argument("--seq_val_frac", type=float, default=0.15)
     ap.add_argument("--single_val_frac", type=float, default=0.1)
     a = ap.parse_args()
